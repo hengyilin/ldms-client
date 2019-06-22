@@ -15,6 +15,7 @@ import {MatIconModule} from "@angular/material/icon";
 import {MatInputModule} from "@angular/material/input";
 import {MatDialogModule} from "@angular/material/dialog";
 import {MatRadioModule} from "@angular/material/radio";
+import {MatSnackBarModule} from "@angular/material/snack-bar";
 
 @NgModule({
   declarations: [CustomerListComponent, CustomerCardComponent, CustomerNewComponent, RepDialogComponent],
@@ -30,7 +31,8 @@ import {MatRadioModule} from "@angular/material/radio";
     MatIconModule,
     MatInputModule,
     MatDialogModule,
-    MatRadioModule
+    MatRadioModule,
+    MatSnackBarModule
   ],
   entryComponents: [RepDialogComponent]
 })

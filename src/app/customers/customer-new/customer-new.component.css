@@ -10,3 +10,8 @@
 .mat-card .half-width {
   width: 50%;
 }
+
+.mat-card .mat-card-actions {
+  display: block;
+  text-align: right
+}
