@@ -1,16 +1,24 @@
-.container {
+.toolBarPosition {
   position: absolute;
   top: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+}
+
+.sideBarPosition {
+  position: absolute;
+  top: 60px;
   right: 0;
   bottom: 0;
   left: 0;
 }
 
-.container .mat-drawer {
+.sideBarPosition .mat-drawer {
   min-width: 200px;
 }
 
-.container .mat-drawer .mat-button {
+.sideBarPosition .mat-drawer .mat-button {
   display: block;
   width: 100%;
   text-align: left;
