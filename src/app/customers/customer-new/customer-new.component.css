@@ -1,0 +1,12 @@
+.mat-card {
+  max-width: 600px;
+  margin: auto;
+}
+
+.mat-card .full-width {
+  width: 100%;
+}
+
+.mat-card .half-width {
+  width: 50%;
+}
