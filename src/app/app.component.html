@@ -1,14 +1,20 @@
 <mat-toolbar color="primary" class="toolBarPosition">
   <mat-toolbar-row>
+
     <button mat-icon-button (click)="drawer.toggle()">
       <mat-icon>menu</mat-icon>
     </button>
-    <span>Title</span>
+
+    <span>首页logo</span>
+
     <span class="spacer"></span>
+
     <mat-icon>favorite</mat-icon>
+
     <button mat-icon-button [matMenuTriggerFor]="menu">
       <mat-icon>more_vert</mat-icon>
     </button>
+
     <mat-menu #menu="matMenu">
       <button mat-menu-item>
         <mat-icon>publish</mat-icon>
@@ -23,6 +29,7 @@
         <span>Delete</span>
       </button>
     </mat-menu>
+
   </mat-toolbar-row>
 </mat-toolbar>
 
